@@ -10,7 +10,7 @@ namespace aspnetcoreapp
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseStartup<Startup>()
-                .UseUrls("http://localhost:5050")
+                .UseUrls("http://*:5000")
                 .Build();
 
             host.Run();
