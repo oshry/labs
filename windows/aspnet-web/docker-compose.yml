@@ -7,4 +7,4 @@ services:
         context: ./webserver
      image: aspnet-web
      ports:
-        - "8000:5000" 
+        - "5000:5000" 
